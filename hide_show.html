@@ -7,16 +7,16 @@
     <script src="JQ/jquery.js"></script>
 </head>
 <body>
-    <p>if you click on the "Hide" Button,I will Disappear.</p>
+    <p>if you click on the Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat libero, dolore optio ad voluptates id enim voluptatem eveniet numquam nulla ipsam rerum ipsum ullam suscipit cumque sapiente, facere voluptatum reprehenderit. "Hide" Button,I will Disappear.</p>
     <button id="hide">Hide</button>
     <button id="show">Show</button>
     <script>
         $(document).ready(function(){
             $("#hide").click(function(){
-                $("p").hide();
+                $("p").hide(800);
             });
             $("#show").click(function(){
-                $("p").show();
+                $("p").toggle(800);
             });
             
         });
